@@ -6,7 +6,7 @@ import java.util.Random;
 
 @Component
 public class PasswordGenerator {
-    private static final String CHARACTERS = "abcdefghijklmnopqrstuvwxyz123456789";
+    private static final String CHARACTERS = "abcdefghijklmnopqrstuvwxyz123456789!@#$%^&*";
     private static final Random random = new Random();
 
     public String generate(int length) {
